@@ -1,0 +1,198 @@
+body {
+  
+  background: linear-gradient(70deg, #642E44, #a65d7c);
+  margin: 0;
+}
+
+#logo-arteviva {
+  padding: 4px;
+  width: 60px;
+}
+
+.navbar {
+  padding: 0%;
+}
+
+.navbar a {
+  color: #f2dfdf;
+}
+
+.navbar-custom {
+  background-color: #a65d7c;
+}
+
+.nav-link {
+  color: #f2dfdf;
+}
+
+.nav-link:hover {
+  color: #642e44;
+}
+
+.nav-item {
+  padding-left: 10px;
+  margin: 0px;
+}
+
+.nav-item:hover {
+  margin: 0;
+  background-color: #b16e8a;
+}
+
+.navbar-toggler-icon{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none;
+}
+
+.card {
+    border-style: none;
+}
+
+.card-img-overlay {
+    text-align: right;    
+}
+
+.card-title-img {
+    text-align: right;
+}
+
+.card-img {
+  max-width: 100%;
+  filter: brightness(35%) saturate(0);
+}
+
+.carousel img {
+  max-width: 100%;
+  filter: brightness(35%) saturate(0);
+}
+
+.carousel-control.left, .carousel-control.right {
+  left: 0;
+  z-index: 1;
+}
+
+.carousel p, h3 {
+  text-align: right;
+}
+
+.card-img-top {
+  filter: saturate(0);
+}
+
+.card-img-top:hover {
+  filter: saturate(1);
+}
+
+.card-portada {
+  float: none;
+}
+
+.foto-portada {
+  margin: 0px 0px 0px 0px;
+  padding: 0;
+}
+
+.portada .btn {
+  margin: 15px;
+  padding: 0px 15px;
+  border-style: none;
+  background-color: #642e44;
+}
+
+.card-title {
+  text-align: center;
+}
+
+#imagen-portada {
+  max-width: 100%;
+  filter: saturate(0);
+}
+
+/* ACTIVIDADES */
+
+#actividades {
+  width: 100%;
+  padding: 40px 0px;
+  margin: 0px 0px 30px 0px;
+  background: linear-gradient(230deg, #f2dfdf, #ecb9b9);
+}
+
+#actividades .card {
+  padding: 20px;
+  margin: 0 auto; /* Added */
+  margin-bottom: 10px; /* Added */
+}
+
+.card-title {
+  text-align: left;
+}
+
+#actividades .btn {
+  color: #642e44;
+  border-color: #F2DFDF;
+  background-color: #ffffff;  
+}
+
+#actividades .btn:hover {
+  color: #642e44;
+  border-color: #F2DFDF;
+  background-color: #F2DFDF;  
+}
+
+/* SUSCRIPCION */
+
+.suscripcion {
+  width: 900px;
+  border-radius: 20px;
+  padding: 40px;
+  margin: 80px auto;  
+  background-color: #f2dfdf;
+  justify-content: center;
+}
+
+.suscripcion .btn {
+  margin: 40px 0 20px;
+  width: 100%;
+  border-style: none;
+  border-color: #261a1a;
+  background-color: #261a1a;
+  background: linear-gradient(70deg, #261a1a, #4f3e3e)
+}
+
+.suscripcion .btn:hover {
+  border-style: none;
+  background: linear-gradient(70deg, #503f3f, #625353)
+}
+
+/* FOOTER */
+
+.footer {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  padding: 40px;
+  background-color: #261a1a;
+}
+
+.footer a:any-link {
+  text-decoration: none;
+  color: #f2dfdf;
+}
+
+.footer a:hover {
+  color: #A65D7C;
+}
+
+/* 
+    colores:
+    #261A1A marron
+    #642E44 violeta oscuro
+    #A65D7C rosado
+    #444243 gris
+    #F2DFDF cremita
+*/
