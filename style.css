@@ -1,12 +1,23 @@
-body {
-  
-  background: linear-gradient(70deg, #642E44, #a65d7c);
+body {  
+  background-color: #642E44;
   margin: 0;
+  font-family: 'Mulish';
 }
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Mulish';
+  font-weight: 700;
+}
+
+p {
+  color: #261a1a;
+}
+
+/* NAVBAR */
 
 #logo-arteviva {
   padding: 4px;
-  width: 60px;
+  width: 80px;
 }
 
 .navbar {
@@ -49,9 +60,12 @@ body {
   box-shadow: none;
 }
 
+/* PORTADA */
+
 .card {
     border-style: none;
 }
+
 
 .card-img-overlay {
     text-align: right;    
@@ -77,6 +91,7 @@ body {
 }
 
 .carousel p, h3 {
+  color: #ffdfdf;
   text-align: right;
 }
 
@@ -119,7 +134,11 @@ body {
   width: 100%;
   padding: 40px 0px;
   margin: 0px 0px 30px 0px;
-  background: linear-gradient(230deg, #f2dfdf, #ecb9b9);
+  background: linear-gradient(0deg, #642E44, #ecb9b9);
+}
+
+#actividades h5 {
+  color: #45202f;
 }
 
 #actividades .card {
@@ -147,7 +166,7 @@ body {
 /* SUSCRIPCION */
 
 .suscripcion {
-  width: 80%;
+  max-width: 900px;
   border-radius: 20px;
   padding: 40px;
   margin: 80px auto;  
@@ -161,12 +180,21 @@ body {
   border-style: none;
   border-color: #261a1a;
   background-color: #261a1a;
-  background: linear-gradient(70deg, #261a1a, #4f3e3e)
+  background: linear-gradient(90deg, #261a1a, #4f3e3e)
 }
 
 .suscripcion .btn:hover {
   border-style: none;
   background: linear-gradient(70deg, #503f3f, #625353)
+}
+
+#titulo-suscripcion {
+  color: #45202f;
+  text-align: right;
+}
+
+#titulo-suscripcion h3 {
+  color: #261a1a;
 }
 
 /* FOOTER */
@@ -177,7 +205,9 @@ body {
   text-align: center;
   padding: 40px;
   background-color: #261a1a;
+  box-shadow: #45202f 0px -3px;
 }
+
 
 .footer a:any-link {
   text-decoration: none;
@@ -186,6 +216,10 @@ body {
 
 .footer a:hover {
   color: #A65D7C;
+}
+
+.footer div {
+  margin-bottom: 20px;
 }
 
 /* 
