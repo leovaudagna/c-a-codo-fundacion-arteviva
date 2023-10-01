@@ -13,6 +13,24 @@ p {
   color: #261a1a;
 }
 
+@media (max-width: 769px){
+  .texto-portada {
+    display: none;
+  }
+  .abreviacion {
+    display:inline;
+  }
+}
+
+@media (min-width: 770px){
+  .texto-portada {
+    display: inline;
+  }
+  .abreviacion {
+    display:none;
+  }
+}
+
 /* NAVBAR */
 
 #logo-arteviva {
