@@ -9,9 +9,7 @@ h1, h2, h3, h4, h5 {
   font-weight: 700;
 }
 
-p {
-  color: #261a1a;
-}
+
 
 @media (max-width: 769px){
   .texto-portada {
@@ -109,7 +107,7 @@ p {
 }
 
 .carousel p, h3 {
-  color: #ffdfdf;
+  color: #fbf5f5;
   text-align: right;
 }
 
@@ -152,7 +150,7 @@ p {
   width: 100%;
   padding: 40px 0px;
   margin: 0px 0px 30px 0px;
-  background: linear-gradient(0deg, #642E44, #ecb9b9);
+  background: linear-gradient(0deg, #642E44, #A65D7C);
 }
 
 #actividades h5 {
@@ -181,6 +179,30 @@ p {
   background-color: #F2DFDF;  
 }
 
+/* ENSAMBLE DE JAZZ */
+
+.ensamble-jazz .container-fluid {
+  background: linear-gradient(270deg, #ededed, rgb(255, 255, 255));
+}
+
+.ensamble-jazz img {
+  padding: 0;
+  margin: 0px;
+  height: 100%;
+}
+
+.texto-ensamble {
+  padding: 50px 50px;
+  color: #222222;
+  text-align: center;
+}
+
+.texto-ensamble h3 {
+  color: #222222;
+  text-align: center;
+}
+
+
 /* SUSCRIPCION */
 
 .suscripcion {
@@ -190,6 +212,12 @@ p {
   margin: 80px auto;  
   background-color: #f2dfdf;
   justify-content: center;
+}
+
+@media (max-width: 969px){
+  .suscripcion {
+    margin: 80px 20px;
+  }
 }
 
 .suscripcion .btn {
@@ -212,6 +240,15 @@ p {
 }
 
 #titulo-suscripcion h3 {
+  color: #261a1a;
+}
+
+.suscripcion p {
+  color: #261a1a;
+}
+
+.form-checkbox-input:checked {
+  background-color: rgb(0, 0, 0)!important;
   color: #261a1a;
 }
 
