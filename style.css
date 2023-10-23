@@ -228,12 +228,12 @@ h1, h2, h3, h4, h5 {
   border-style: none;
   border-color: #261a1a;
   background-color: #261a1a;
-  background: linear-gradient(90deg, #261a1a, #4f3e3e)
+  background: linear-gradient(90deg, #261a1a, #4f3e3e);
 }
 
 .suscripcion .btn:hover {
   border-style: none;
-  background: linear-gradient(70deg, #503f3f, #625353)
+  background: linear-gradient(70deg, #503f3f, #625353);
 }
 
 #titulo-suscripcion {
@@ -253,6 +253,32 @@ h1, h2, h3, h4, h5 {
   background-color: rgb(0, 0, 0)!important;
   color: #261a1a;
 }
+
+/* ENTRADAS FESTIVAL */
+
+.entradas-festival {
+  background-color: #F2DFDF;
+  height: 900px;
+  text-align: center;
+}
+
+.entradas-festival .card {
+  border: solid 1px #503f3f;
+  background-color: inherit;
+  width: 300px;
+  margin: 50px;
+}
+
+.entradas-festival .card-body {
+  height: 200px;
+}
+
+.cards-precios {
+  display: inline-flex;
+  margin: auto;
+}
+
+
 
 /* FOOTER */
 
