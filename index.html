@@ -266,10 +266,19 @@
   </section>
 
   <section class="entradas-festival">
-    <div>
-
       <div class="container">
         <div class="row">
+
+          <div class="card">
+            <h4 class="card-title">General</h4>
+            <div class="card-body">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">No tiene descuento.</li>
+                <li class="list-group-item">-</li>
+                <li class="list-group-item">*no requiere presentar documentación</li>
+              </ul>
+            </div>
+          </div>  
 
           <div class="card">
             <h4 class="card-title">Estudiante ILB</h4>
@@ -293,20 +302,64 @@
             </div>
           </div>
 
-          <div class="card">
-            <h4 class="card-title">General</h4>
-            <div class="card-body">
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">No tiene descuento.</li>
-                <li class="list-group-item">-</li>
-              </ul>
-            </div>
-          </div>
-          
+                  
         </div>
-      </div>
-    </div>
 
+        <div class="titulo-form-entradas">
+          <p>VENTA</p>
+          <h3>VALOR DE TICKET $1500</h3>
+        </div>
+        
+        <div class="container" id="form-entradas">
+          <form>
+            <div class="row g-4 justify-content-md-center">
+              <div class="col-4">
+                <label for="inputEmail4" class="form-label"></label>
+                <input type="text" class="form-control" id="inputEmail4" placeholder="Nombre">
+              </div>
+              <div class="col-4">
+                <label for="inputPassword4" class="form-label"></label>
+                <input type="text" class="form-control" id="inputPassword4" placeholder="Apellido">
+              </div>
+              <div class="col-8">
+                <!-- <label for="inputAddress" class="form-label"></label> -->
+                <input type="text" class="form-control" id="inputAddress" placeholder="Correo">
+              </div>
+
+            </div>
+
+            <div class="row g-4 justify-content-md-center" style="margin-top: 20px;">
+              <div class="col-4">
+                <label for="inputEmail4" class="form-label">Cantidad</label>
+                <input type="number" class="form-control" id="inputEmail4" placeholder="Cantidad">
+              </div>
+              <div class="col-4">
+                <label for="inputPassword4" class="form-label">Categoria</label>
+                <select class="form-select" id="autoSizingSelect">
+                  <option selected>Elegir una opción</option>
+                  <option value="1">General</option>
+                  <option value="2">Estudiante ILB</option>
+                  <option value="3">Socio Fundación</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="row g-4 justify-content-md-center" style="margin-top: 20px;">
+              <div class="col-8">
+                <label class="form-control">Total a Pagar: $</label>  
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+                <button type="submit" class="btn btn-primary">Sign in</button>
+              </div>
+            </div>
+
+          </form>
+        </div>
+
+        
+
+      </div>
   </section>
 
   <footer>

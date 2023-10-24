@@ -257,20 +257,44 @@ h1, h2, h3, h4, h5 {
 /* ENTRADAS FESTIVAL */
 
 .entradas-festival {
-  background-color: #F2DFDF;
-  height: 900px;
+  padding: 50px 0 50px 0;
+  background: linear-gradient(270deg, #ededed, rgb(255, 255, 255));
   text-align: center;
+  justify-content: center;
+}
+
+
+.entradas-festival .container .row .card {
+  margin: auto;
+  width: 400px;
+  margin-bottom: 40px;
+}
+
+.entradas-festival h3 {
+  text-align: center;
+  color: #45202f;
+  margin: 40px;
 }
 
 .entradas-festival .card {
   border: solid 1px #503f3f;
   background-color: inherit;
   width: 300px;
-  margin: 50px;
+  margin: 20px;
+}
+
+.entradas-festival .card-title {
+  text-align: center;
+  padding: 20px;
+}
+
+.entradas-festival .list-group-item {
+  background-color: inherit;
 }
 
 .entradas-festival .card-body {
-  height: 200px;
+  background-color: inherit;
+  margin: auto;
 }
 
 .cards-precios {
@@ -278,6 +302,15 @@ h1, h2, h3, h4, h5 {
   margin: auto;
 }
 
+/* FORM Entradas */
+
+#form-entradas row {
+  /* margin: auto; */
+}
+
+#form-entradas .btn {
+  /* width: auto; */
+}
 
 
 /* FOOTER */
