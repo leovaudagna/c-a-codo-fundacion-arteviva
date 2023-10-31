@@ -304,12 +304,19 @@ h1, h2, h3, h4, h5 {
 
 /* FORM Entradas */
 
-#form-entradas row {
-  /* margin: auto; */
+#form-entradas .btn {
+  border-style: none;
+  background-color: #A65D7C;
+  padding: 3 30px;
+  width: 200px;
 }
 
-#form-entradas .btn {
-  /* width: auto; */
+
+
+#total-a-pagar {
+  font-weight: 800;
+  color: #ededed;
+  background-color: #45202f;
 }
 
 

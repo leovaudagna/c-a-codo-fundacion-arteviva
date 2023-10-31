@@ -7,7 +7,7 @@
   <meta name="HandheldFriendly" content="true">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="/css/style.css"/>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet">
@@ -285,7 +285,7 @@
             <div class="card-body">
               <ul class="list-group list-group-flush">
                 <li class="list-group-item">Tiene un descuento.</li>
-                <li class="list-group-item">70%</li>
+                <li class="list-group-item">50%</li>
                 <li class="list-group-item">*presentar documentación</li>
               </ul>
             </div>
@@ -305,52 +305,58 @@
                   
         </div>
 
-        <div class="titulo-form-entradas">
+        <div class="titulo-form-entradas needs-validation" novalidate>
           <p>VENTA</p>
           <h3>VALOR DE TICKET $1500</h3>
         </div>
         
         <div class="container" id="form-entradas">
-          <form>
+          <form action="javascript:0">
             <div class="row g-4 justify-content-md-center">
               <div class="col-4">
                 <label for="inputEmail4" class="form-label"></label>
-                <input type="text" class="form-control" id="inputEmail4" placeholder="Nombre">
+                <input type="text" class="form-control" id="inputEmail4" placeholder="Nombre" required>
               </div>
               <div class="col-4">
                 <label for="inputPassword4" class="form-label"></label>
-                <input type="text" class="form-control" id="inputPassword4" placeholder="Apellido">
+                <input type="text" class="form-control" id="inputPassword4" placeholder="Apellido" required>
               </div>
               <div class="col-8">
                 <!-- <label for="inputAddress" class="form-label"></label> -->
-                <input type="text" class="form-control" id="inputAddress" placeholder="Correo">
+                <input type="email" class="form-control" id="inputAddress" placeholder="Correo" required>
               </div>
 
             </div>
 
             <div class="row g-4 justify-content-md-center" style="margin-top: 20px;">
               <div class="col-4">
-                <label for="inputEmail4" class="form-label">Cantidad</label>
-                <input type="number" class="form-control" id="inputEmail4" placeholder="Cantidad">
+                <label for="input-cantidad" class="form-label">Cantidad</label>
+                <input type="number" class="form-control" id="input-cantidad" placeholder="Cantidad" required>
               </div>
               <div class="col-4">
-                <label for="inputPassword4" class="form-label">Categoria</label>
-                <select class="form-select" id="autoSizingSelect">
+                <label for="input-categoria" class="form-label">Categoria</label>
+                <select class="form-select" id="input-categoria" required>
                   <option selected>Elegir una opción</option>
-                  <option value="1">General</option>
-                  <option value="2">Estudiante ILB</option>
-                  <option value="3">Socio Fundación</option>
+                  <option value="general">General</option>
+                  <option value="estudiante">Estudiante ILB</option>
+                  <option value="socio">Socio Fundación</option>
                 </select>
               </div>
             </div>
+            
 
             <div class="row g-4 justify-content-md-center" style="margin-top: 20px;">
               <div class="col-8">
-                <label class="form-control">Total a Pagar: $</label>  
+                <label class="form-control" id="total-a-pagar">Total a Pagar: $</label>  
+              </div>                            
+            </div>
+
+            <div class="row g-4 justify-content-md-center" style="margin-top: 20px;">
+              <div class="col-4">
+                <button type="reset" class="btn btn-primary">Borrar</button>
               </div>
-              <div class="col-12">
-                <button type="submit" class="btn btn-primary">Sign in</button>
-                <button type="submit" class="btn btn-primary">Sign in</button>
+              <div class="col-4">
+                <button type="submit" class="btn btn-primary" id="boton-calcular" onclick="calculoEntradas()">Resumen</button>
               </div>
             </div>
 
@@ -385,7 +391,9 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous">
+  </script>
+  <script src="script.js"></script>
 </body>
 
 </html>
