@@ -1,3 +1,7 @@
+document.getElementById("boton-calcular").addEventListener("click", function(){calculoEntradas()});
+
+document.getElementById("boton-borrar").addEventListener("click", function(){borrarResumen()});
+
 function calculoEntradas(){
 
     let cantidad = document.getElementById("input-cantidad").value;
@@ -25,4 +29,8 @@ function calculoEntradas(){
     document.getElementById("total-a-pagar").innerText = "Total a pagar: $" + precioFinal;
 
     console.log(precioFinal)
+}
+
+function borrarResumen(){
+    document.getElementById("total-a-pagar").innerText = "Total a pagar: $";
 }
